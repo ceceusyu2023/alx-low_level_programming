@@ -37,5 +37,3 @@ char *str_concat(char *s1, char *s2)
 		concat[i] = '\0';
 		return (concat);
 	}
-	return (concat);
-}
