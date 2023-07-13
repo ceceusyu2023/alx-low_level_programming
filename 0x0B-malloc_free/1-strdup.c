@@ -13,7 +13,7 @@ char *_strdup(char *str)
 	char *a;
 	int i, r = 0;
 
-	if (a == NULL)
+	if (i == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
 		a[r] = str[r];
