@@ -10,12 +10,12 @@
  */
 char *_strdup(char *str)
 {
-	char *a;
+	char *aaa;
 	int i, r = 0;
 
-	if (i == NULL)
+	if (aaa == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
-		a[r] = str[r];
-	return (a);
+		aaa[r] = str[r];
+	return (aaa);
 }
